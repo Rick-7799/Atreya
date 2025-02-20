@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
-def load_data(file_path):
+def load_data(patient_data.csv):
     data = pd.read_csv(patient_data.csv)
     return data
 
