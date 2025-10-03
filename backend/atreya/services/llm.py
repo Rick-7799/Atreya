@@ -115,7 +115,7 @@ def generate_diagnosis(symptoms: List[str], lifestyle: List[str], conditions: Li
             + ". This is a simple heuristic summary without an LLM.\n"
             "Caution: this is not medical advice."
         )
-        # naive confidence: based on count
+        
         conf = min(1.0, max(0.3, len(conditions) / 5.0))
         return {"text": text, "confidence": conf}
 
