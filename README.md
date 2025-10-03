@@ -6,7 +6,7 @@
 
 ## Tech
 - **LangChain**: prompt/chain orchestration for LLM reasoning.
-- **Neo4j**: knowledge graph (herbs ↔ conditions ↔ propert## What you geties, interactions).
+- **Neo4j**: knowledge graph.
 - **FastAPI**: backend API that queries Neo4j and composes prompts for LangChain.
 
 
