@@ -27,7 +27,7 @@ python graph/load_data.py
 ```
 ### 4) Start the backend
 ```bash
-uvicorn backend.main:app --reload
+uvicorn --app-dir backend main:app --reload --env-file .env
 ```
 - It will print something like: `http://127.0.0.1:8000`
 - Open `http://127.0.0.1:8000/docs` to see the API.
