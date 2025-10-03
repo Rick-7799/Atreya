@@ -21,7 +21,6 @@ class RecommenderService:
             avoid_map=avoid_map
         )
 
-        # Simple parser: turn facts into top 3 suggestions + attach avoid list
         top = {}
         for f in facts:
             h = f["herb"]
