@@ -45,5 +45,5 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     reply: str
-    extracted: Dict[str, List[str]] = Field(default_factory=dict)  # {"symptoms": [...], "lifestyle": [...]}
+    extracted: Dict[str, List[str]] = Field(default_factory=dict)  
     disclaimer: str = DISCLAIMER
